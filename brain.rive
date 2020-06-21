@@ -1,0 +1,73 @@
+! version = 2.0
+// variables declaration
+! var name = Toplight Bot
+
+// Substitutions
+! sub i'm     = i am
+! sub i'd     = i would
+! sub i've    = i have
+! sub i'll    = i will
+! sub don't   = do not
+! sub isn't   = is not
+! sub you'd   = you would
+! sub you're  = you are
+! sub you've  = you have
+! sub you'll  = you will
+! sub what's  = what is
+! sub whats   = what is
+! sub what're = what are
+! sub what've = what have
+! sub what'll = what will
+! sub who's   = who is
+
++ (hello|hi|hey)
+- hello, how can i help you please
+
++ who are you
+- i am <bot name>
+
++ my name is *
+- nice meeting you <star>, how can i help you
+- it is good meeting you <star>, how can i help you
+
+
++ i am *
+- nice meeting you <star>
+- it is good meeting you <star>
+- it is my pleasure meeting you <star>
+
++ thank you 
+- you are welcome
+- welcome
+- no problem
+- no worries
+
++ what are your services
+- We sell Electrical material of differnt kinds
+- At Toplight we sell Electrical cables & materials
+
++ what are you selling
+- We sell Electrical material of differnt kinds
+- At Toplight we sell Electrical cables & materials
+
++ how much are your cables
+- It depend on the cable sizes, we have 1mm, 1.5mm, 2mm, 2.5mm, 4mm 
+
++ [*] price [*]
+- The prices do varies you can contact our sales manager on +2348106662311 to get detailed information
+
++ (goodbye|bye)
+- Have a nice day
+- it was nice chatting with you, just text me if you need something
+
++ where is your office located
+- Our office is located at Sango bus stop opposite Total filling station, Sango Ibadan, Nigeria.
+
++ what is your office address
+- Our office is located at Sango bus stop opposite Total filling station, Sango Ibadan, Nigeria.
+
++ *
+- Sorry i did not get what you mean
+- I'm afraid that i cannot understand you
+- I did not get you
+- Please rephrase your message so i can understand
